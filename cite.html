@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Title</title>
+</head>
+<body>
+    <table class="container-lg table">
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>First name</td>
+                    <td>Last name</td>
+                    <td>Age</td>
+                    <td>Action</td>
+                </tr>
+            </thead>
+            <tbody id="table">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td><input class="form-control" id="newFirstName"></td>
+                    <td><input class="form-control" id="newLastName"></td>
+                    <td><input class="form-control" id="newAge"></td>
+                    <td><button onclick="add()" class="btn btn-success">Create</button></td>
+                </tr>
+            </tfoot>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="indexm.js"></script>
+</body>
+</html>
